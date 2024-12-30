@@ -1,0 +1,7 @@
+# Bloquer l'accès à tous les robots pour certains dossiers
+User-agent: *
+Disallow: /assets/
+Disallow: /images/
+
+# Autoriser l'accès à tout le reste
+Allow: /
